@@ -1,0 +1,216 @@
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Epoll'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:use sendfile(2): True
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 256
+DEBUG:pyftpdlib:max connections per ip: 5
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib based ftpd ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:2121, pid=63837 <<<
+INFO:pyftpdlib:received interrupt signal
+INFO:pyftpdlib:>>> shutting down FTP server, 1 socket(s), pid=63837 <<<
+DEBUG:pyftpdlib:[debug] closing IOLoop (<pyftpdlib.ioloop.Epoll (fds=1, tasks=0) at 0x7fdc248fc4e0>)
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Epoll'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:use sendfile(2): True
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 256
+DEBUG:pyftpdlib:max connections per ip: 5
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib based ftpd ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:2121, pid=5274 <<<
+INFO:pyftpdlib:received interrupt signal
+INFO:pyftpdlib:>>> shutting down FTP server, 1 socket(s), pid=5274 <<<
+DEBUG:pyftpdlib:[debug] closing IOLoop (<pyftpdlib.ioloop.Epoll (fds=1, tasks=0) at 0x7f6fd6037438>)
+INFO:pyftpdlib:concurrency model: async
+INFO:pyftpdlib:masquerade (NAT) address: None
+INFO:pyftpdlib:passive ports: None
+DEBUG:pyftpdlib:poller: 'pyftpdlib.ioloop.Epoll'
+DEBUG:pyftpdlib:authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+DEBUG:pyftpdlib:use sendfile(2): True
+DEBUG:pyftpdlib:handler: 'pyftpdlib.handlers.type'
+DEBUG:pyftpdlib:max connections: 256
+DEBUG:pyftpdlib:max connections per ip: 5
+DEBUG:pyftpdlib:timeout: 300
+DEBUG:pyftpdlib:banner: 'pyftpdlib based ftpd ready.'
+DEBUG:pyftpdlib:max login attempts: 3
+INFO:pyftpdlib:>>> starting FTP server on 0.0.0.0:2121, pid=5350 <<<
+INFO:pyftpdlib:127.0.0.1:50410-[] FTP session opened (connect)
+DEBUG:pyftpdlib:127.0.0.1:50410-[] -> 220 pyftpdlib based ftpd ready.
+DEBUG:pyftpdlib:127.0.0.1:50410-[] <- USER rean
+DEBUG:pyftpdlib:127.0.0.1:50410-[] -> 331 Username ok, send password.
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] <- PASS ******
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] -> 230 Login successful.
+INFO:pyftpdlib:127.0.0.1:50410-[rean] USER 'rean' logged in.
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] -> 227 Entering passive mode (127,0,0,1,233,75).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406c50>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406c50>)
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] <- LIST
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] starting transfer using send() (<DTPHandler(id=139986330955672, addr='127.0.0.1:50410', user='rean')>)
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:50410', user='rean')>)
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] <- QUIT
+DEBUG:pyftpdlib:127.0.0.1:50410-[rean] -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=139986330955672, addr='127.0.0.1:50410', user='rean')>)
+INFO:pyftpdlib:127.0.0.1:50410-[rean] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:52292-[] FTP session opened (connect)
+DEBUG:pyftpdlib:127.0.0.1:52292-[] -> 220 pyftpdlib based ftpd ready.
+DEBUG:pyftpdlib:127.0.0.1:52292-[] <- USER rean
+DEBUG:pyftpdlib:127.0.0.1:52292-[] -> 331 Username ok, send password.
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- PASS ******
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 230 Login successful.
+INFO:pyftpdlib:127.0.0.1:52292-[rean] USER 'rean' logged in.
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 227 Entering passive mode (127,0,0,1,176,13).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406c18>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406c18>)
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- LIST
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] starting transfer using send() (<DTPHandler(id=139986330955672, addr='127.0.0.1:52292', user='rean')>)
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:52292', user='rean')>)
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 227 Entering passive mode (127,0,0,1,168,135).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406c50>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406c50>)
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- NLST /test1
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:52292', user='rean')>)
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] <- QUIT
+DEBUG:pyftpdlib:127.0.0.1:52292-[rean] -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=139986330955672, addr='127.0.0.1:52292', user='rean')>)
+INFO:pyftpdlib:127.0.0.1:52292-[rean] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:51318-[] FTP session opened (connect)
+DEBUG:pyftpdlib:127.0.0.1:51318-[] -> 220 pyftpdlib based ftpd ready.
+DEBUG:pyftpdlib:127.0.0.1:51318-[] <- USER rean
+DEBUG:pyftpdlib:127.0.0.1:51318-[] -> 331 Username ok, send password.
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- PASS ******
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 230 Login successful.
+INFO:pyftpdlib:127.0.0.1:51318-[rean] USER 'rean' logged in.
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 227 Entering passive mode (127,0,0,1,181,142).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406ba8>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406ba8>)
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- LIST
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] starting transfer using send() (<DTPHandler(id=139986330955672, addr='127.0.0.1:51318', user='rean')>)
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:51318', user='rean')>)
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 227 Entering passive mode (127,0,0,1,233,163).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406c18>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406c18>)
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- NLST /test1
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:51318', user='rean')>)
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- TYPE I
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 200 Type set to: Binary.
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 227 Entering passive mode (127,0,0,1,139,234).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406c18>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406c18>)
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] <- STOR test2/uploadtest
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:51318', user='rean', sending-file=<_io.BufferedWriter name='/data/home/reanzhang/ftptest/test2/uploadtest'>, use-sendfile(2)=True, bytes-trans=0)>)
+DEBUG:pyftpdlib:127.0.0.1:51318-[rean] -> 226 Transfer complete.
+INFO:pyftpdlib:127.0.0.1:51318-[rean] STOR /data/home/reanzhang/ftptest/test2/uploadtest completed=1 bytes=0 seconds=0.001
+DEBUG:pyftpdlib:[debug] call: recv(), err: [Errno 104] Connection reset by peer (<FTPHandler(id=139986330955672, addr='127.0.0.1:51318', user='rean')>)
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=139986330955672, addr='127.0.0.1:51318', user='rean')>)
+INFO:pyftpdlib:127.0.0.1:51318-[rean] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:45104-[] FTP session opened (connect)
+DEBUG:pyftpdlib:127.0.0.1:45104-[] -> 220 pyftpdlib based ftpd ready.
+DEBUG:pyftpdlib:127.0.0.1:45104-[] <- USER rean
+DEBUG:pyftpdlib:127.0.0.1:45104-[] -> 331 Username ok, send password.
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- PASS ******
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 230 Login successful.
+INFO:pyftpdlib:127.0.0.1:45104-[rean] USER 'rean' logged in.
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 227 Entering passive mode (127,0,0,1,184,111).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406e80>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406e80>)
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- LIST
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] starting transfer using send() (<DTPHandler(id=139986330955672, addr='127.0.0.1:45104', user='rean')>)
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:45104', user='rean')>)
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 227 Entering passive mode (127,0,0,1,172,22).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406da0>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406da0>)
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- NLST /test1
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:45104', user='rean')>)
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- TYPE I
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 200 Type set to: Binary.
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 227 Entering passive mode (127,0,0,1,233,104).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406da0>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406da0>)
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- STOR test2/uploadtest
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:45104', user='rean', sending-file=<_io.BufferedWriter name='/data/home/reanzhang/ftptest/test2/uploadtest'>, use-sendfile(2)=True, bytes-trans=16)>)
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 226 Transfer complete.
+INFO:pyftpdlib:127.0.0.1:45104-[rean] STOR /data/home/reanzhang/ftptest/test2/uploadtest completed=1 bytes=16 seconds=0.001
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] <- QUIT
+DEBUG:pyftpdlib:127.0.0.1:45104-[rean] -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=139986330955672, addr='127.0.0.1:45104', user='rean')>)
+INFO:pyftpdlib:127.0.0.1:45104-[rean] FTP session closed (disconnect).
+INFO:pyftpdlib:127.0.0.1:50954-[] FTP session opened (connect)
+DEBUG:pyftpdlib:127.0.0.1:50954-[] -> 220 pyftpdlib based ftpd ready.
+DEBUG:pyftpdlib:127.0.0.1:50954-[] <- USER anonymous
+DEBUG:pyftpdlib:127.0.0.1:50954-[] -> 331 Username ok, send password.
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- PASS ******
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 230 Login successful.
+INFO:pyftpdlib:127.0.0.1:50954-[anonymous] USER 'anonymous' logged in.
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 227 Entering passive mode (127,0,0,1,156,77).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406c88>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406c88>)
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- LIST
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] starting transfer using send() (<DTPHandler(id=139986330955672, addr='127.0.0.1:50954', user='anonymous')>)
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:50954', user='anonymous')>)
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- TYPE A
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 200 Type set to: ASCII.
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- PASV
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 227 Entering passive mode (127,0,0,1,220,96).
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP listening 127.0.0.1:0 at 0x7f510e406e10>)
+DEBUG:pyftpdlib:[debug] call: close() (<pyftpdlib.handlers.PassiveDTP 127.0.0.1:0 at 0x7f510e406e10>)
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- NLST /test1
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 125 Data connection already open. Transfer starting.
+DEBUG:pyftpdlib:[debug] call: close() (<DTPHandler(id=139986330955672, addr='127.0.0.1:50954', user='anonymous')>)
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 226 Transfer complete.
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] <- QUIT
+DEBUG:pyftpdlib:127.0.0.1:50954-[anonymous] -> 221 Goodbye.
+DEBUG:pyftpdlib:[debug] call: close() (<FTPHandler(id=139986330955672, addr='127.0.0.1:50954', user='anonymous')>)
+INFO:pyftpdlib:127.0.0.1:50954-[anonymous] FTP session closed (disconnect).

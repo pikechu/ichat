@@ -1,0 +1,26 @@
+package irpc;
+
+option cc_generic_services = true;
+option py_generic_services = true;
+
+
+message LoginReq {
+    optional string user = 1;
+    optional string password = 2;
+
+}
+
+message LoginRsp {
+    optional sfixed32 error_code = 1;
+    optional string error_msg = 2;
+}
+
+message RegistReq {
+    optional string user = 1;
+    optional string password = 2;
+}
+
+message RegistRsp {
+    optional sfixed32 error_code = 1;
+    optional string error_msg = 2;
+}

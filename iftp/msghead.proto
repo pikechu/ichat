@@ -1,0 +1,23 @@
+package irpc;
+
+option cc_generic_services = true;
+option py_generic_services = true;
+
+
+enum Device{
+    OS_WINDOWS = 1;
+    OS_ANDROID = 2;
+    OS_MAC = 3;
+    OS_IOS = 4;
+}
+
+// 一个TaskOption项根据underlyingPrice的不同可能会拥有多个TradeItem
+message MHead
+{
+    optional string from_addr = 1;
+    optional fixed32 from_port = 2;
+    optional string device
+}
+
+
+
