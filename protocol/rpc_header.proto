@@ -1,3 +1,4 @@
+syntax="proto2";
 package irpc;
 
 option cc_generic_services = true;
@@ -16,7 +17,7 @@ message MHead
 {
     optional string from_addr = 1;
     optional fixed32 from_port = 2;
-    optional string device
+    optional fixed32 device = 3;
 }
 
 
