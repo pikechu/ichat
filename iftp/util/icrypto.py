@@ -58,7 +58,7 @@ if __name__ == '__main__':
     import os
     en = iEncrypto(os.getcwd()+'/../rsa_public_key.pem')
     de = iDecrypto(os.getcwd()+'/../rsa_private_key.pem')
-    en_t = en.encrypt(msg)
+    en_t = en.rsa_encrypt(msg)
     print(en_t)
-    de_t = de.decrypt(en_t)
+    de_t = de.rsa_decrypt(en_t)
     print(de_t)
